@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: wheat;
+    }
+
+    nav {
+        gap: 40px;
+    }
+
+    .players-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .injuries-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: darkgray;
+    }
+
+    nav {
+        gap: 55px;
+    }
+
+    .players-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .injuries-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
